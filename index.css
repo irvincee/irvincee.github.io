@@ -1,0 +1,46 @@
+html {
+    background-color: #0074D9;
+}
+
+body{
+    text-align: center;
+}
+
+h1 {
+	text-align: center;
+    color: #DDDDDD;
+    font-family: 'Cabin', sans-serif;
+}
+
+p{
+    text-align: left;
+    word-spacing: 1px;
+    margin: 0 auto;
+    height: 100px;
+    width: 350px;
+    color: #DDDDDD;
+    font-family: 'Cabin', sans-serif;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+li {
+    padding-left: 7px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#image {
+	border-radius: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+a:hover{
+    color:#000;
+}
