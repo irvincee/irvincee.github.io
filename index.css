@@ -1,21 +1,19 @@
+/* HTML */
+
 html {
     color: #323336;
 }
 
-body{
-    
-    border: 5px solid green;
+body {
     text-align: center;
     margin: auto;
     width: 700px;
     padding: 0;
-
 }
 
 /* HEADER */
 
 header {
-    border: 1px solid red;
     height: 100px;
     margin: auto;
     padding: 0;
@@ -25,8 +23,9 @@ h1 {
     font-family: 'Cabin', sans-serif;
     font-size: 50px;
 	text-align: center;
-    border: 1px solid yellow;
-    margin: 20px 175px 0px 175px;
+    margin: 0px 175px 0px 175px;
+    padding-top: 18px;
+    margin-top: 50px;
     color: black;
 }
 
@@ -40,35 +39,44 @@ h1 {
     background-position: center center;   
 }
 
-/* DIV 1 */
+/* BODY */
 
-p{
-    text-align: left;
-    word-spacing: 1px;
+p { 
+    text-align: justify;
+    word-spacing: .5px;
     margin: 0 auto;
     height: 100px;
     width: 350px;
-    color: #DDDDDD;
+    color: #96999b;
     font-family: 'Cabin', sans-serif;
 }
 
-ul {
-    padding-left: 20px;
-    list-style-type: none;
+/* LINKS */
+
+table {
+    margin: auto;
 }
 
-li {
-    padding-left: 7px;
+td {
+    margin: auto;
+    text-align: left;
     font-family: 'Cabin', sans-serif;
 }
-
-
 
 a {
     text-decoration: none;
-    color: #DDDDDD;
+    color: #96999b;
 }
 
 a:hover{
     color:#000;
 }
+
+.cell {
+    padding: 0px 12px 0px 12px;
+}
+
+.table {
+    border-spacing: 5px;
+}
+
