@@ -1,16 +1,46 @@
 html {
-    background-color: #0074D9;
+    color: #323336;
 }
 
 body{
+    
+    border: 5px solid green;
     text-align: center;
+    margin: auto;
+    width: 700px;
+    padding: 0;
+
+}
+
+/* HEADER */
+
+header {
+    border: 1px solid red;
+    height: 100px;
+    margin: auto;
+    padding: 0;
 }
 
 h1 {
-	text-align: center;
-    color: #DDDDDD;
     font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+	text-align: center;
+    border: 1px solid yellow;
+    margin: 20px 175px 0px 175px;
+    color: black;
 }
+
+#image {
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 150px;
+    background-image: url(http://i.imgur.com/OGlFO5n.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;   
+}
+
+/* DIV 1 */
 
 p{
     text-align: left;
@@ -32,9 +62,7 @@ li {
     font-family: 'Cabin', sans-serif;
 }
 
-#image {
-	border-radius: 60%;
-}
+
 
 a {
     text-decoration: none;
