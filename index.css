@@ -41,7 +41,7 @@ h1 {
 
 /* BODY */
 
-p { 
+div { 
     text-align: justify;
     word-spacing: .5px;
     margin: 0 auto;
@@ -79,5 +79,9 @@ a:active {
 
 .table {
     border-spacing: 5px;
+}
+
+.project {
+    line-height: 10px;
 }
 
