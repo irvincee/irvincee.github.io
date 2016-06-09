@@ -41,24 +41,28 @@ h1 {
 
 /* BODY */
 
-div { 
+section { 
     text-align: left;
-    margin: 0 auto;
-    height: 450px;
+    margin: auto;
+    height: 550px;
     width: 350px;
     color: #96999b;
     font-family: 'Cabin', sans-serif;
 }
 
-div p:nth-child(1) {
+section #main {
     font-size: 30px;
 }
 
-p {
+p, .project {
     margin: 20px 0 10px 0;
     font-size: 20px;
     word-spacing: 1px;
     line-height: 30px;
+}
+
+.project {
+    
 }
 
 /* LINKS */
