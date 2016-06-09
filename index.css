@@ -42,14 +42,23 @@ h1 {
 /* BODY */
 
 div { 
-    text-align: justify;
-    word-spacing: .5px;
+    text-align: left;
     margin: 0 auto;
-    height: 150px;
+    height: 450px;
     width: 350px;
     color: #96999b;
     font-family: 'Cabin', sans-serif;
-    line-height: 25px;
+}
+
+div p:nth-child(1) {
+    font-size: 30px;
+}
+
+p {
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+    word-spacing: 1px;
+    line-height: 30px;
 }
 
 /* LINKS */
@@ -66,11 +75,15 @@ td {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #000;    
 }
 
 a:active {
     color: #0692f0
+}
+
+img {
+    height: 40px;
 }
 
 .cell {
